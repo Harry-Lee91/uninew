@@ -1405,7 +1405,7 @@ html {
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    line-height: 1.42857143;
+    line-height: 0.9;
     color: #333;
     background-color: #fff
 }
@@ -1420,13 +1420,18 @@ textarea {
 }
 
 a {
-    color: #337ab7;
+    color: azure;
     text-decoration: none
 }
+.portfolio-sorting a{
+    color: black;
+}
+
+
 
 a:focus,
 a:hover {
-    color: #23527c;
+    color: #004b91;
     text-decoration: underline
 }
 
