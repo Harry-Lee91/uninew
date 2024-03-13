@@ -48,16 +48,16 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    
-
-
-
-
 </head>
 <body>
 
     <!-- Hero Section, Background Image change in css -->
     <style>
+
+    /* .sect div:hover {
+        color: cornflowerblue;
+    } */
+    /*  */
 
 @keyframes fadeIn {
         from {
@@ -74,8 +74,52 @@
         animation: fadeIn 1s ease;
         
     }
+    @media (max-width:450px) {
+       
+      
+       
+        .hero-content{
+            width: 100%;
+            height: 420px;
+            position: absolute;
+            display: table-cell;
+        }
+        
+        .hero-content video{
+            /* width: 450px; */
+            
+            height: 800px;
 
+        }
+        .hero-content .hero-job span{
+            font-size: 20px;
+        }
+        .hero-content .hero-job-desc{
+            width: 100%;
+            font-size: 13px;
+            left: 0;
+            
+        }
+        .sect img{
+            width: 100%;
+            height: 100%;
+        }
+        .sect a{
+            width: 100%;
+            font-size: 25px;
+           
+        }
+
+       .hero-arrow{
+        width: 50px;
+        height: 50px;
+       bottom: 200px;
+       }
+
+    }
     
+
+     
 
 
     </style>
@@ -85,7 +129,7 @@
         <!-- Name & Description -->
         <div class="hero-content">
             <video src="assets/vid/pexels-kelly-lacy-6618037 (1080p).mp4"  autoplay muted="muted" loop ></video>
-            <p class="hero-job" style="font-weight: 700; color: azure; text-shadow: 5px 5px gray;"><span>유니월드해운항공(주)</span></p>
+            <p class="hero-job" style="font-weight: 700; color: azure; text-shadow: 5px 5px gray;"><span>유니월드해운항공(주)</span></p> 
             <p class="hero-job-desc" style="font-size: 20px; font-weight: 500; color: azure;">최저의 비용, 최상의 서비스!<br>
                                     one-stop total 물류 서비스!<br>
                                     가장 빠르고 경쟁력 있는 물류 서비스!<br><br>
@@ -152,22 +196,21 @@
         <!-- Hello section -->
        
 
-
         <div class="sect" style="width: 100%; margin-left: 0; margin-top: 100px; position: relative; text-align: center;">
             <a href="#services"><img src="./assets/img/container-ship-6631117_1920.jpg" width="750px" height="450px" alt="">
-            <div style="position: absolute; left: 30%; top: 35%; transform: translateX(-50%); font-size: 50px; font-weight: 700; color: azure;">SEA TRANSPORT</div>
-            <div style="position: absolute; left: 29%; top: 50%; transform: translateX(-50%); font-size: 30px; font-weight: 700; color: azure;">해상운송</div></a>
+            <div style="position: absolute; left: 30%; top: 35%; transform: translateX(-50%); font-size: 50px; font-weight: 700; color: azure;"><a href="#services">SEA TRANSPORT<br>해상운송</div></a>
+            <!-- <div style="position: absolute; left: 29%; top: 50%; transform: translateX(-50%); font-size: 30px; font-weight: 700; color: azure;">해상운송</div></a> -->
             <img src="./assets/img/sunset-4955981_1920.jpg" width="750px" height="450px" alt="">
-            <div style="position: absolute; left: 70%; top: 35%; transform: translateX(-50%); font-size: 50px; font-weight: 700; color: azure;">AIR TRANSPORT</div>
-            <div style="position: absolute; left: 70%; top: 50%; transform: translateX(-50%); font-size: 30px; font-weight: 700; color: azure;">항공운송</div>
+            <div style="position: absolute; left: 70%; top: 35%; transform: translateX(-50%); font-size: 50px; font-weight: 700; color: azure;"><a href="#services">AIR TRANSPORT<br>항공운송</div></a>
+            <!-- <div style="position: absolute; left: 70%; top: 50%; transform: translateX(-50%); font-size: 30px; font-weight: 700; color: azure;">항공운송</div> -->
         </div>
         <div class="sect" style="width: 100%; margin-left: 0; margin-top: 5px; position: relative; text-align: center;">
             <img src="./assets/img/port-1845350_1920.jpg" width="750px" height="450px" alt="">
-            <div style="position: absolute; left: 30%; top: 35%; transform: translateX(-50%); font-size: 50px; font-weight: 700; color: azure">WAREHOUSE/3PL</div>
-            <div style="position: absolute; left: 29%; top: 50%; transform: translateX(-50%); font-size: 30px; font-weight: 700; color: azure;">창고 및 3PL</div>
+            <div style="position: absolute; left: 30%; top: 35%; transform: translateX(-50%); font-size: 50px; font-weight: 700; color: azure"><a href="#services">3PL/WAREHOUSEL<br>3PL 및 창고</div></a>
+            <!-- <div style="position: absolute; left: 29%; top: 50%; transform: translateX(-50%); font-size: 30px; font-weight: 700; color: azure;">3PL 및 창고</div> -->
             <img src="./assets/img/hamburg-6849995_1920.jpg" width="750px" height="450px" alt="">
-            <div style="position: absolute; left: 70%; top: 35%; transform: translateX(-50%); font-size: 50px; font-weight: 700; color: azure">PROJECT/BULK</div>
-            <div style="position: absolute; left: 70%; top: 50%; transform: translateX(-50%); font-size: 30px; font-weight: 700; color: azure">프로젝트/벌크</div>
+            <div style="position: absolute; left: 70%; top: 35%; transform: translateX(-50%); font-size: 50px; font-weight: 700; color: azure"><a href="#services">PROJECT/BULK<br>프로젝트/벌크</div></a>
+            <!-- <div style="position: absolute; left: 70%; top: 50%; transform: translateX(-50%); font-size: 30px; font-weight: 700; color: azure">프로젝트/벌크</div> -->
         </div>
 
         
@@ -191,8 +234,8 @@
 							<div class="rectangle">
 								<i class="fa fa-calendar" aria-hidden="true"></i>
 							</div><!-- /.rectangle -->
-							<h3 style="text-align: center; font-size: 20px;" >함께 성장하는 포워딩회사</h3>
-							<p style="text-align: center; font-size: 15px;">고객 중심의 해운 및 항공 운송 서비스를 제공하는 선도적인 포워딩 회사로, 혁신과 지속적인 성장을 통해 고객과 함께 성장합니다.
+							<h3 style="text-align: center; font-size: 25px;" >함께 성장하는 포워딩회사</h3>
+							<p style="text-align: center; font-size: 18px; line-height: 25px;">고객 중심의 해운 및 항공 운송 서비스를 제공하는 선도적인 포워딩 회사로, 혁신과 지속적인 성장을 통해 고객과 함께 성장합니다.
                                 함께 일하는 동안 우리는 항상 고객의 요구를 우선으로 생각하여 최적의 솔루션을 제공하고자 노력합니다.
                                 </p>
 						</div><!-- /.main-service -->
@@ -200,8 +243,8 @@
                             <div class="rectangle">
                                 <i class="fa fa-comments" aria-hidden="true"></i>
                             </div>
-                            <h3 style="text-align: center; font-size: 20px">소통하며 발전하는 회사</h3>
-							<p style="text-align: center; font-size: 15px;">소통과 협력을 통해 발전하는 기업으로, 팀원들 간의 열린 대화와 지식 공유를 통해 끊임없는 성장을 이루고 있습니다.<br>
+                            <h3 style="text-align: center; font-size: 25px">소통하며 발전하는 회사</h3>
+							<p style="text-align: center; font-size: 18px; line-height: 25px;">소통과 협력을 통해 발전하는 기업으로, 팀원들 간의 열린 대화와 지식 공유를 통해 끊임없는 성장을 이루고 있습니다.<br>
                             </p>
                               
                         </div><!-- /.main-service -->
@@ -216,8 +259,8 @@
                             <div class="rectangle">
                                 <i class="fa fa-check" aria-hidden="true"></i>
                             </div>
-                            <h3 style="text-align: center; font-size: 20px;">다양한 운송수단 확보</h3>
-							<p style="text-align: center; font-size: 15px;">고객의 요구를 완벽히 이해하고 신속하고 효율적인 서비스를 제공합니다.<br>
+                            <h3 style="text-align: center; font-size: 25px;">다양한 운송수단 확보</h3>
+							<p style="text-align: center; font-size: 18px; line-height: 25px;">고객의 요구를 완벽히 이해하고 신속하고 효율적인 서비스를 제공합니다.<br>
                                 자사는 다양한 운송수단을 확보하여 고객의 비즈니스에 최적화된 해결책을 제공합니다.</p>
                                 
                         </div><!-- /.main-service -->
@@ -225,8 +268,8 @@
 							<div class="rectangle">
 								<i class="fa fa-list" aria-hidden="true"></i>
 							</div><!-- /.rectangle -->
-							<h3 style="text-align: center; font-size: 20px;">최적의 물류파트너</h3>
-							<p style="text-align: center; font-size: 15px;">고객의 요구를 완벽히 이해하고 신속하고 효율적인 서비스를 제공합니다.<br>
+							<h3 style="text-align: center; font-size: 25px;">최적의 물류파트너</h3>
+							<p style="text-align: center; font-size: 18px; line-height: 25px;">고객의 요구를 완벽히 이해하고 신속하고 효율적인 서비스를 제공합니다.<br>
                                 전문적인 팀과 협력사들과의 긴밀한 협업을 통해 고객의 비즈니스 성공을 위한 최사의 물류 솔루션을 제공합니다.</p>
 						</div><!-- /.main-service -->
 					</div>
@@ -238,7 +281,7 @@
         <!-- Quote section -->
 		<section class="section-background section-quote background-overlay text-center">
 			<div class="container">
-				<p>유니월드해운항공㈜는 <span>현시대의 고객들이 필요로 하는 종합적인 물류</span> <span>&amp; 합리적인 물류서비스</span>에 초점을 맞추고 비용절감과 <br> ONE-STOP 서비스에 주력하고 있습니다.</p>
+				<p style="font-weight: 700;">유니월드해운항공㈜는 <span>현시대의 고객들이 필요로 하는 종합적인 물류</span> <span>&amp; 합리적인 물류서비스</span>에 초점을 맞추고 비용절감과 <br> ONE-STOP 서비스에 주력하고 있습니다.</p>
 			</div>
 		</section><!-- /.section-quote -->
         <!-- End Quote section -->
@@ -444,6 +487,7 @@
         <!-- Team section -->
         <section class="site-section section-team" id="team">
             <div class="container">
+                <!-- <h1 style="text-align: center; margin-bottom: 30px; font-size: 48px; font-weight: 700; color: #0049b1;">사업 영역</h1> -->
                 <h2>국제 특송</h2>
                 <p class="section-subtitle"><span>Sub Content</span></p>
                 
@@ -464,7 +508,7 @@
                                             <h3 class="team-member-back-name">소화물 운송</h3>
                                             <!-- <p class="team-member-back-position">Sub_content</p> -->
                                             <!-- <img src="./assets/img/a1-1.png" alt=""> -->
-                                            <p class="team-member-back-info" style="font-size: 18px;">업무용 서류나 상품 견본 등을 전세계 10여 국가에 2~4일 내에 배달해 드리는 가장 빠른 국제우편 서비스 </p>
+                                            <p class="team-member-back-info" style="font-size: 18px; line-height: 20px;">업무용 서류나 상품 견본 등을 전세계 10여 국가에 2~4일 내에 배달해 드리는 가장 빠른 국제우편 서비스 </p>
                                             <div class="social-icons small">
                                                 <!-- <a href="#" class="rectangle"><i class="fa fa-facebook"></i></a>
                                                 <a href="#" class="rectangle"><i class="fa fa-twitter"></i></a>
@@ -490,7 +534,7 @@
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">소화물 국제 특송</h3>
                                             <!-- <p class="team-member-back-position">Web Developer</p> -->
-                                            <p class="team-member-back-info">소화물 및 개인화물에 대하여 방문접수 후 Carton 박스로 안전하게 포장을 하고 세관통관, 운송 등의 일체업무를 대행하여 수취인에게 안전하고 신속하게 배달해 드립니다.</p>
+                                            <p class="team-member-back-info" style="font-size: 18px; line-height: 20px;">소화물 및 개인화물에 대하여 방문접수 후 Carton 박스로 안전하게 포장을 하고 세관통관, 운송 등의 일체업무를 대행하여 수취인에게 안전하고 신속하게 배달해 드립니다.</p>
                                             <!-- <div class="social-icons small">
                                                 <a href="#" class="rectangle"><i class="fa fa-facebook"></i></a>
                                                 <a href="#" class="rectangle"><i class="fa fa-twitter"></i></a>
@@ -516,7 +560,7 @@
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">중량물 국제 특송</h3>
                                             <!-- <p class="team-member-back-position">Mobile APP Developer</p> -->
-                                            <p class="team-member-back-info">중량화물 및 수출입 화물에 대하여 방문접수 후 Carton박스, 특수박스, Wooden박스로 안전하게 포장을 하고
+                                            <p class="team-member-back-info" style="font-size: 18px; line-height: 20px;">중량화물 및 수출입 화물에 대하여 방문접수 후 Carton박스, 특수박스, Wooden박스로 안전하게 포장을 하고
                                                                              세관통관, 운송 등의 일체업무를 대행하여 수취인에게 안전하고 신속하게 배달해 드립니다.    
                                             
                                             </p>
@@ -613,7 +657,7 @@
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">컨테이너 운송</h3>
                                             <!-- <p class="team-member-back-position">Web Designer</p> -->
-                                            <p class="team-member-back-info">
+                                            <p class="team-member-back-info" style="font-size: 18px; line-height: 20px;">
                                                                              다양한 화물의 형태와 조건들을 파악해 일반 컨테이너를 비롯해 특수 컨테이너(F/R, O/T, Reefer)를 제공하고 있으며 요청하신
                                                                              목적지까지 신속하고 정확하게 컨테이너를 운송하고 있습니다.
 
@@ -644,7 +688,7 @@
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">LCL Cargo</h3>
                                             <!-- <p class="team-member-back-position">Web Developer</p> -->
-                                            <p class="team-member-back-info">
+                                            <p class="team-member-back-info" style="font-size: 18px; line-height: 20px;">
                                                                              다양한 일반 화물에 필요한 장비와 인력을 항시 보유하고 있으며, 운행 시간 / 거리 / 혼적량을 고려한 배차 노하우로 체계적인 집하작업을 통해
                                                                              경제적인 LCL 화문 운송 서비스를 제공하고 있습니다.
 
@@ -674,7 +718,7 @@
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">Bulk/Project</h3>
                                             <!-- <p class="team-member-back-position">Mobile APP Developer</p> -->
-                                            <p class="team-member-back-info">
+                                            <p class="team-member-back-info" style="font-size: 18px; line-height: 20px;">
                                                                              Over Size, Bulk, Project, Dangerous Cargo, 냉장/냉동화물 등 특수화물은 선사 및 항공사와 사전 업무 협의를 통해 선적 및 양하시 공동으로 작업하고 있습니다.
                                                                              전문교육을 이수한 직원들이 현장에서 직접 관리해 화물의 안전을 보장하고 불필요한 경비가 발생되지 않도록 진행하고 있습니다.
 
@@ -705,7 +749,7 @@
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">Rail 철도 운송</h3>
                                             <!-- <p class="team-member-back-position">Seo Specialist</p> -->
-                                            <p class="team-member-back-info">
+                                            <p class="team-member-back-info" style="font-size: 18px; line-height: 20px;">
                                                                              화물 특성에 따라 철도 운송방식을 부합시켜 부산, 조치원, 의왕 등 철도 CY 및 ICD 업무 제휴로 안전하게 철송되고 있습니다.
 
 
@@ -748,7 +792,7 @@
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">통관 대행</h3>
                                             <!-- <p class="team-member-back-position">Web Designer</p> -->
-                                            <p class="team-member-back-info">
+                                            <p class="team-member-back-info" style="font-size: 18px; line-height: 20px;">
                                                                              <ul style="line-height: 30px; font-size: 14px;  width: 100%">
                                                                                 <li>
                                                                                     신속/정확한 통관 서비스 제공
@@ -793,7 +837,7 @@
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">창고 대행(보세창고 및 일반창고)</h3>
                                             <!-- <p class="team-member-back-position">Web Developer</p> -->
-                                            <p class="team-member-back-info">
+                                            <p class="team-member-back-info" style="font-size: 18px; line-height: 20px;">
                                                                              <h4>보안관리 시스템</h4>
                                                                              24시간 자동 경비 및 무인 감시카메라 운영
                                                                              <h4>화물의 변질 방지</h4>
@@ -827,7 +871,7 @@
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">포장 대행</h3>
                                             <!-- <p class="team-member-back-position">Mobile APP Developer</p> -->
-                                            <p class="team-member-back-info">
+                                            <p class="team-member-back-info" style="font-size: 15px; line-height: 15px;">
                                                                             <ul>
                                                                                 <li>
                                                                                     최소의 자재 및 비용으로 안전하고 견고하게 상품을 포장하여 장거리 해외운송(육운,해운,항공,하역) 중에 발생하는 상품의 파손으로부터 보호하고 물품의 보고 임무를 완수합니다.
@@ -865,10 +909,10 @@
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">포장 대행</h3>
                                             <!-- <p class="team-member-back-position">Mobile APP Developer</p> -->
-                                            <p class="team-member-back-info">
+                                            <p class="team-member-back-info" style="font-size: 15px; line-height: 15px;">
                                                                             <ul>
                                                                                 <li>
-                                                                                    최소의 자재 및 비용으로 안전하고 견고하게 상품을 포장하여 장거리 해외운송(육운,해운,항공,하역) 중에 발생하는 상품의 파손으로부터 보호하고 물품의 보고 임무를 완수합니다.
+                                                                                    최소의 자재 및 비용으로 안전하고 견고하게 상품을 포장하여 장거리 해외운송 중에 발생하는 상품의 파손으로부터 보호하고 물품의 보고 임무를 완수합니다.
                                                                                 </li>
                                                                                 <li>
                                                                                     화물의 특성에 맞는 다양한 패킹 방법, 밀폐형/스키드형/팔레트형/진공포장을 안내해드립니다.  
@@ -1246,19 +1290,19 @@
                 <div class="clients" style="line-height: 0;">
                     <!-- Client --> 
                     <a class="client" id="client-1">
-                        <h4 style="line-height: 0; font-weight: 700; ">● Chemical (화학)</h4>
+                        <h4 style="line-height: 0; font-weight: 700; color: black;">● Chemical (화학)</h4>
                         <img src="assets/img/client-chemical.png" class="img-responsive" alt="화학">
                     </a><!-- /.client -->         
                     <a class="client" id="client-1">
-                        <h4 style="line-height: 0; font-weight: 700; ">● Consumer Products (소비재)</h4>
+                        <h4 style="line-height: 0; font-weight: 700; color: black; ">● Consumer Products (소비재)</h4>
                         <img src="assets/img/client-consum.png" class="img-responsive" alt="소비재">
                     </a><!-- /.client --> 
                     <a class="client">
-                        <h4 style="line-height: 0px; font-weight: 700 ">● Automotive Parts (자동차 부품)</h4>
+                        <h4 style="line-height: 0px; font-weight: 700; color: black;  ">● Automotive Parts (자동차 부품)</h4>
                         <img src="assets/img/client-auto.png" style="height: 100%;" class="img-responsive" alt="자동차부품">
                     </a><!-- /.client --> 
                     <a class="client">
-                        <h4 style="line-height: 0; font-weight: 700;">● ETC (전기/전자, 의료, 철강 등)</h4>
+                        <h4 style="line-height: 0; font-weight: 700; color: black;">● ETC (전기/전자, 의료, 철강 등)</h4>
                         <img src="assets/img/client-etc.png" style="height: 100%;" class="img-responsive" alt="전기/전자" style="width: 100%;">
                     </a><!-- /.client -->            
                   
